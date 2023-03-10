@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta data -->
+    <meta charset="utf-8">
+    <meta name="description" content="User Input with JavaScript">
+    <meta name="keywords" content="Immaculata, ICS2O">
+    <meta name="author" content="Ben Thomson">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Web page title -->
+    <title>User Input with JavaScript</title>
+  </head>
+  <body>
+    <!-- JavaScript file -->
+    <script src="./js/script.js"></script>
+
+    <!-- Heading -->
+    <h1>User Input with JavaScript</h1>
+
+    <!-- Body text -->
+    <p>
+      <!-- JavaScript form -->
+      <h3>Please enter the following:</h3>
+      <form action="javascript:enterClicked()">
+        <label for="snumber">Street Number:</label>
+        <input type="number" id="street-number" placeholder="Street Number"><br><br>
+        <label for="sname">Street Name:</label>
+        <input type="text" id="street-name" placeholder="Street Name"><br><br>
+        <input type="submit" value="Enter">
+      </form>
+    </p>
+		<!-- Create a space where the user information will be displayed -->
+    <div id="user-info">
+    </div>
+  </body>
+</html>
